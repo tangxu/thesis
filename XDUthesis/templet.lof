@@ -1,0 +1,28 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Top: An example of an text query and the top four images retrieved by our method. Bottom: An example of an image query and the corresponding images of the top four texts retrieved by our method.}}{17}{figure.3.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Three representative image-text pair examples, which are from "warfare" class, "art" class and "sport" class, respectively. The left column is the image and the right column is the corresponding text.}}{24}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces The precision-scope curves of different methods for image query text tasks on the Wiki and NUS-WIDE datasets, respectively. }}{26}{figure.4.2}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wiki (500D BoVW \& 1000D BoW)}}}{26}{subfigure.2.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wiki (1000D BoVW \& 5000D BoW)}}}{26}{subfigure.2.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {NUS-WIDE}}}{26}{subfigure.2.3}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces The precision-scope curves of different methods for text query image tasks on the Wiki and NUS-WIDE datasets, respectively. }}{26}{figure.4.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wiki (500D BoVW \& 1000D BoW)}}}{26}{subfigure.3.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wiki (1000D BoVW \& 5000D BoW)}}}{26}{subfigure.3.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {NUS-WIDE}}}{26}{subfigure.3.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Top: An example of an image query and the corresponding images of the top four texts retrieved by our cross-modal retrieval method, SLiM$^2$, and BLM with the irrelevant results framed by red rectangles. The query is from the ``sports'' class. The first three results returned by our method are from the same class. Bottom: An example of an text query and the top four images retrieved by our method and SLiM$^2$ with the irrelevant results framed by red rectangles. The query is from the ``biology'' class. The results returned by our method are from the same class, while three of the results of BLM are not relevant. }}{27}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Parameter tuning. The above figures show that the average mAP values under different settings of the parameters $\lambda _{1}$ (for text modality) and $\lambda _{2}$ (for image modality), which are tuned and set via a grid search strategy. }}{28}{figure.4.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wiki (500D BoVW \& 1000D BoW)}}}{28}{subfigure.5.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wiki (1000D BoVW \& 5000D BoW)}}}{28}{subfigure.5.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {NUS-WIDE}}}{28}{subfigure.5.3}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces The obtained average mAP values of two retrieval tasks by different dictionary sizes. It can be observed that the size of the dictionary is not a key factor for the performance.}}{29}{figure.4.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wiki (500D BoVW \& 1000D BoW)}}}{29}{subfigure.6.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wiki (1000D BoVW \& 5000D BoW)}}}{29}{subfigure.6.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {NUS-WIDE}}}{29}{subfigure.6.3}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces The mAP values obtained by different proportion of training data and test data, on the Wiki and NUS-WIDE datasets, respectively.}}{30}{figure.4.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wiki (500D BoVW \& 1000D BoW)}}}{30}{subfigure.7.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wiki (1000D BoVW \& 5000D BoW)}}}{30}{subfigure.7.2}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {NUS-WIDE}}}{30}{subfigure.7.3}
+\addvspace {10\p@ }

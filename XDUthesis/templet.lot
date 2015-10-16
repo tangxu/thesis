@@ -1,0 +1,14 @@
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {1.1}{\ignorespaces Abbreviation List}}{5}{table.1.1}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Comparison of mAP performance of different methods on the Wiki dataset with 500-D BoVW and 1000-D BoW, for image query text task, text query image task and the average of two tasks. The best results are marked by bold font.}}{16}{table.3.1}
+\contentsline {table}{\numberline {3.2}{\ignorespaces Comparison of mAP performance of different methods on the Wiki dataset with 1000-D BoVW and 5000-D BoW, for image query text task, text query image task and the average of two tasks. The best results are marked by bold font.}}{16}{table.3.2}
+\contentsline {table}{\numberline {3.3}{\ignorespaces Comparison of mAP performance of different methods on the NUS-WIDE dataset with 500-D BoVW and 1000-D BoW for image query text task, text query image task and the average of two tasks. The best results are marked by bold font.}}{17}{table.3.3}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Comparison of mAP performance of different methods on the Wiki dataset (image feature is 500-D BoVW and text feature is 1000-D BoW) for Image Query Text Task, Text Query Image Task, and the Average of Two Tasks with the best results marked by bold font. }}{28}{table.4.1}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Comparison of mAP performance of different methods on the Wiki dataset (image feature is 1000-D BoVW and text feature is 5000-D BoW) for Image Query Text Task, Text Query Image Task, and The Average of Two Tasks with the best results marked by bold font.}}{29}{table.4.2}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Comparison of mAP performance of different methods on the NUS-WIDE dataset with the best results marked by bold font. }}{29}{table.4.3}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Comparison of mAP performance of different methods on the MIRFlickr dataset for Image Query Text Task, Text Query Image Task, and the Average of Two Tasks with the best results marked by bold font.}}{29}{table.4.4}
+\contentsline {table}{\numberline {4.5}{\ignorespaces \leavevmode {\color {blue}Training and testing time required by our method.}}}{30}{table.4.5}
+\addvspace {10\p@ }

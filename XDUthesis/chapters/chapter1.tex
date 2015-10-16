@@ -1,0 +1,122 @@
+
+\chapter{绪论}
+
+\section{研究背景及意义}
+Nearest neighbor search, \emph{a.k.a.}, similarity search, plays a fundamental role of many important applications,
+including information retrieval~\cite{deng2014weakly}, object recognition~\cite{dollar2014object}, near duplicate detection~\cite{min2012nearduplicate}, and so on.
+Due to the explosive growth of data on the Internet, there have been increasing interests and efforts to similarity search in massive datasets
+such as texts, audio, images, and videos. However, most existing similarity search methods only apply to a \emph{unimodal} data setting,
+which refers to retrieving similar data items with a single modality to a query item. Nowadays, a more appealing scenario frequently arises in similarity search applications,
+which involves data with multiple modalities and is thus regarded as \textit{cross-modal} problems. Taking multimedia retrieval as an example, one would like to find
+some textual information which can well describe an image or video~\cite{wu2012heterogeneous}, and vice versa. Specifically, we consider image modality and text modality, \textit{i.e.} using image queries to retrieve texts and text queries to retrieve images. Since data with different modalities resides in different feature spaces,
+traditional unimodal approaches cannot be directly applied. Hence, the main challenging factor pertaining to cross-modal problems is
+how to capture and correlate heterogeneous features from different modalities.
+
+As we mentioned above, heterogeneous data of different modalities resides in different feature spaces.
+How to model the relationships among these modalities becomes a prominent issue that needs to be addressed.
+With the goal of transferring knowledge from a source domain to a target domain, recent studies in domain adaptation
+have shown promising performance for cross-domain visual recognition tasks. Among the techniques for tackling cross-domain recognition,
+the most used efficient way is to determine a common feature space which well preserves cross-domain data structures \cite{liu2011cross}\cite{baktashmotlagh2014domain}\cite{huang2013coupled}.
+Inspired by domain adaptation, each modality can be regarded as a domain and for all domains a common latent space is learned,
+where the cross-modal associations can be established and bridge the semantic gap among the modalities.
+
+To sufficiently represent heterogeneous features residing in different feature spaces,
+dictionary learning has absorbed ever-increasing attention in recent years.
+Dictionary Learning (DL) aims to learn a representation space from a set of training examples,
+where a given signal can be approximately represented as a sparse code for later processing.
+Due to the intrinsic power of representing heterogeneous features by generating different dictionaries for multi-modal data,
+there are some early DL approaches designed for attacking several specific applications,
+including face recognition \cite{wright2009robust}, super-resolution \cite{wang2012semicoupled},
+photo-sketch synthesis \cite{huang2013coupled}, and cross-modal retrieval~\cite{zhuang2013supervised}.
+A semi-coupled dictionary learning (SCDL) model~\cite{wang2012semicoupled} was proposed for image super-resolution and photo-sketch synthesis,
+which suggests that one pair of image patches drawn from two different domains share the same mapping function between the resulting sparse codes.
+Inspired by SCDL, Zhuang \emph{et al.}~\cite{zhuang2013supervised} proposed supervised coupled dictionary learning with group structures for multi-modal retrieval (SLiM$^{2}$),
+which jointly learns a group of mapping functions across different modalities.
+There also exists a model which was proposed for cross-domain image synthesis and recognition~\cite{huang2013coupled},
+by which a pair of dictionaries for two domains are learned and multi-modal data is then mapped to a common representation space
+that captures and correlates heterogeneous features.
+Although there exist some methods for solving cross-modal problems, most of them only focused on learning relevant features shared by two distinct feature spaces,
+thereby overlooking discriminative feature information of them. Nevertheless, class label information has not been leveraged yet in these previous methods.
+The work of Shekhar \emph{et al.}~\cite{shekhar2013generalized} jointly learned projections in two different domains
+to construct a discriminative dictionary which can succinctly represent both domains in a projected common low-dimensional representation space.
+Unfortunately, class label information was not fully leveraged in this method.
+
+For multi-modal data, when class label information is available, it is natural to assume that intra-modality data from different classes shares some common aspects,
+while inter-modality data within the same class has closer associations.
+In view of aforementioned challenges, a desired discriminative dictionary learning approach should
+not only discover the dictionary atoms in each class but also endow the generated sparse codes with a discriminating ability.
+In addition, a common label space decided by class label information is expected to enhance the discriminating capability
+and boost the accuracy of cross-modal retrieval.
+To this end, in this paper we propose discriminative dictionary learning which is augmented with common label alignment for cross-modal retrieval.
+The discriminative dictionary learning yields discriminative dictionaries and a group of mapping functions for different modalities,
+producing the common label space.
+Through learning discriminative dictionaries, we can simultaneously discover the discriminative features to reveal different classes inside the intra-modality,
+and the relevant features to capture the same class among the inter-modalities.
+Concretely, we first learn a class-specific discriminative dictionary for each modality,
+and then explore the discriminating property of the intra-modality data from different classes when incorporating class label information.
+Afterwards, we map a pair of sparse codes, obtained over the learned dictionaries, to the common label space,
+where the relevance property of the inter-modality data within the same class can also be discovered
+and the correlations among all modalities are strengthened by means of common label alignment.
+Fig.~\ref{fig:framework} visualizes the whole framework of our proposed cross-modal learning model.
+Experimental results on two popular cross-modal datasets verify that our cross-modal retrieval method outperforms several state-of-the-art methods.
+
+The main contributions of our work can be summarized as follows:
+\begin{itemize}
+  \item We propose discriminative dictionary learning augmented with common label alignment for cross-modal retrieval,
+        which suggests that a pair of sparse codes (\textit{i.e.}, dictionary coefficients) are related by mapping them into the common label space.
+  \item Discriminative dictionary learning boosts not only the discriminating capability of the intra-modality data from different classes
+        but also the relevance of the inter-modality data in the same class. The correlations among all the modalities are strengthened
+        by using a common label alignment within the common label space.
+  \item Experimental results on two popular cross-modal datasets corroborate that our cross-modal method is superior to several state-of-the-art methods.
+\end{itemize}
+
+\section{研究现状}
+
+Several promising approaches have been proposed to deal with cross-modal retrieval. Canonical Correlation Analysis (CCA) \cite{hardoon2004canonical} and its variants may be the most popular techniques that are widely used in cross-modal retrieval. Specifically, given visual and textual features, CCA maps the two modalities into a common latent space where the feature correlation between the two modalities is maximized~\cite{rasiwasia2010new}. The work of \cite{sharma2012generalized} used a bilinear model (BLM) to learn a common space for cross-modal retrieval. Sharma \textit{et al.} \cite{sharma2011bypassing} and Chen \textit{et al.} \cite{chen2012continuum} utilized Partial Least Squares (PLS) for cross-modal retrieval by linearly mapping data of different modalities into a common space. Besides CCA, BLM, and PLS, Sharma \textit{et al.} \cite{sharma2012generalized} proposed generalized multiview analysis, namely Generalized Multiview LDA (GMLDA) and Generalized Multiview MFA (GMMFA) to respectively extend Linear Discriminant Analysis (LDA) \cite{blei2003lda} and
+Marginal Fisher Analysis (MFA) for cross-modal retrieval. It is worth noting that the foregoing methods always assumed that two data modalities are projected into a common or shared feature space where the maximized correlation is explored to narrow down the semantic gap.
+
+Another line of work casts a cross-modal retrieval task to an image annotation problem, whose goal is to learn the patterns of image-text associations so that the missing annotation of an unlabeled image can be accurately inferred. Following the seminal work of Blei \emph{et al.}~\cite{blei2003lda}, two associating models, correspondence blue Latent Dirichlet Allocation (corr-LDA)~\cite{blei2003modeling} and topic-regression multi-modal Latent Dirichlet Allocation (tr-mmLDA)~\cite{putthividhy2010topic},
+extend the basic Latent Dirichlet Allocation model and are built to learn joint distributions of multi-modal data collections.
+In addition, the Hierarchical Dirichlet Process (HDP) model automatically learns some interpretable topics describing shared and private structures~\cite{virtanen2012factorized}. However, these extensions all endeavored to enforce strong correlations among different modalities even though they do not really exist,
+which does not hold for images associated with free-flowing texts.
+
+On the other hand, multi-modal data is heterogeneous and the important problem is how to bridge the gap between different modalities. Thanks to the benefit that dictionary learning methods have an intrinsic power of dealing with heterogeneous features by learning different dictionaries for different modalities of data \cite{monaci2007learning}\cite{jia2010factorized}, some approaches were proposed for cross-modal problems.
+The work in \cite{monaci2007learning} learned multi-modal dictionaries for audiovisual data, and the work in \cite{jia2010factorized}
+proposed a method to factorize multi-modal data into shared and private components.
+To cope with cross-modal retrieval, supervised coupled dictionary learning with group sparsity structures (SLiM$^{2}$)~\cite{zhuang2013supervised} was proposed,
+which jointly learns a group of mapping functions across different modalities and introduces
+a mixed norm to discover the group sparsity structures inside intra-modality data samples. However, the discriminative feature information is not noticed sufficiently in the methods.
+
+Although there exist some methods for handling the cross-modal retrieval problem,
+most of them focused on learning relevant features shared by two distinct feature spaces, thus overlooking discriminative feature information of them.
+In our proposed cross-modal learning model, a discriminative dictionary is learned to account for each modality,
+and all resulting sparse codes are simultaneously mapped to a common label space that captures and correlates the given cross-modal data samples.
+Also in the common label space, the correlations among these modalities are further strengthened by enforcing a common label alignment.
+Such discriminative dictionary learning is performed to boost not only the discriminating capability of the intra-modality data from different classes
+but also the relevance of the inter-modality data in the same class.
+%and the discrimination between these modalities is strengthened by using common label alignment in the common label space.
+
+%\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+\begin{table}[!t]
+  \centering
+  \caption{Abbreviation List}
+  \begin{tabular}{|c|c|}
+  \hline
+  Terms& Abbr.\\
+  \hline
+  Canonical Correlation Analysis&	CCA\\
+  Bilinear Model	&BLM\\
+  Partial Least Squares	&PLS\\
+  Generalized Multiview Linear Discriminant Analysis	&GMLDA\\
+  Generalized Multiview Marginal Fisher Analysis	&GMMFA\\
+  %\tabincell{c}{Supervised Coupled Dictionary Learning \\with Group Sparsity Structures}	&SLiM$^2$\\
+  Supervised Coupled Dictionary Learning with Group Sparsity Structures	&SLiM$^2$\\
+  Dictionary Learning	&DL\\
+  Fisher Discrimination Dictionary Learning 	&FDDL\\
+  Bag-of-Visual-Words	&BoVW\\
+  Bag-of-Words	&BoW\\
+
+  \hline
+  \end{tabular}
+  \label{tab:abbr-list}
+\end{table}

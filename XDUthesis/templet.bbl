@@ -1,0 +1,325 @@
+\begin{thebibliography}{10}
+\providecommand{\bibauthor}[1]{#1}
+\providecommand{\bibeditor}[1]{#1}
+\providecommand{\bibtranslator}[1]{#1}
+\providecommand{\bibtitle}[1]{#1}
+\providecommand{\bibbooktitle}[1]{#1}
+\providecommand{\bibjournal}[1]{#1}
+\providecommand{\bibmark}[1]{#1}
+\providecommand{\bibcountry}[1]{#1}
+\providecommand{\bibpatentid}[1]{#1}
+\providecommand{\bibedition}[1]{#1}
+\providecommand{\biborganization}[1]{#1}
+\providecommand{\bibaddress}[1]{#1}
+\providecommand{\bibpublisher}[1]{#1}
+\providecommand{\bibinstitution}[1]{#1}
+\providecommand{\bibschool}[1]{#1}
+\providecommand{\bibvolume}[1]{#1}
+\providecommand{\bibnumber}[1]{#1}
+\providecommand{\bibversion}[1]{#1}
+\providecommand{\bibpages}[1]{#1}
+\providecommand{\bibmodifydate}[1]{#1}
+\providecommand{\bibcitedate}[1]{#1}
+\providecommand{\bibyear}[1]{#1}
+\providecommand{\bibdate}[1]{#1}
+\providecommand{\biburl}[1]{\newline\url{#1}}
+
+\bibitem{deng2014weakly}
+\bibauthor{DENG C\@, JI R\@, TAO D, et~al}\@. \bibtitle{Weakly Supervised
+  Multi-Graph Learning for Robust Image Reranking}\bibmark{[J]}\@.
+  \bibjournal{Multimedia, IEEE Transactions on}\@, \bibyear{2014}\@,
+  \bibvolume{16}\bibnumber{(3)}\thinspace{}\textnormal{:
+  }\bibpages{785\thinspace{}\textnormal{--}\thinspace{}795}\@.
+
+\bibitem{dollar2014object}
+\bibauthor{DOLL{\'A}R P\@, APPEL R\@, BELONGIE S, et~al}\@. \bibtitle{Fast
+  feature pyramids for object detection}\bibmark{[J]}\@. \bibjournal{Pattern
+  Analysis and Machine Intelligence, IEEE Transactions on}\@, \bibyear{2014}\@,
+  \bibvolume{36}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{1532\thinspace{}\textnormal{--}\thinspace{}1545}\@.
+
+\bibitem{min2012nearduplicate}
+\bibauthor{MIN H-S\@, CHOI J~Y\@, DE~NEVE W, et~al}\@. \bibtitle{Near-duplicate
+  video clip detection using model-free semantic concept detection and adaptive
+  semantic distance measurement}\bibmark{[J]}\@. \bibjournal{Circuits and
+  Systems for Video Technology, IEEE Transactions on}\@, \bibyear{2012}\@,
+  \bibvolume{22}\bibnumber{(8)}\thinspace{}\textnormal{:
+  }\bibpages{1174\thinspace{}\textnormal{--}\thinspace{}1187}\@.
+
+\bibitem{wu2012heterogeneous}
+\bibauthor{WU F\@, HAN Y\@, LIU X, et~al}\@. \bibtitle{The heterogeneous
+  feature selection with structural sparsity for multimedia annotation and
+  hashing: a survey}\bibmark{[J]}\@. \bibjournal{Int. J. Multimed. Info.
+  Retr.}\@, \bibyear{2012}\@,
+  \bibvolume{1}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{3\thinspace{}\textnormal{--}\thinspace{}15}\@.
+
+\bibitem{liu2011cross}
+\bibauthor{LIU J\@, SHAH M\@, KUIPERS B, et~al}\@. \bibtitle{Cross-view action
+  recognition via view knowledge transfer}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Computer Vision and Pattern Recognition (CVPR),
+  2011 IEEE conference on}\@. \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{3209\thinspace{}\textnormal{--}\thinspace{}3216}\@.
+
+\bibitem{baktashmotlagh2014domain}
+\bibauthor{BAKTASHMOTLAGH M\@, HARANDI M~T\@, LOVELL B~C, et~al}\@.
+  \bibtitle{Domain Adaptation on the Statistical Manifold}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Computer Vision and Pattern Recognition (CVPR),
+  2014 IEEE Conference on}\@. \bibyear{2014}\thinspace{}\textnormal{:
+  }\bibpages{2481\thinspace{}\textnormal{--}\thinspace{}2488}\@.
+
+\bibitem{huang2013coupled}
+\bibauthor{HUANG D-A\@, WANG Y-C~F}\@. \bibtitle{Coupled dictionary and feature
+  space learning with applications to cross-domain image synthesis and
+  recognition}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of IEEE
+  International Conference on Computer Vision}\@.
+  \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{2496\thinspace{}\textnormal{--}\thinspace{}2503}\@.
+
+\bibitem{wright2009robust}
+\bibauthor{WRIGHT J\@, YANG A~Y\@, GANESH A, et~al}\@. \bibtitle{Robust face
+  recognition via sparse representation}\bibmark{[J]}\@. \bibjournal{Pattern
+  Analysis and Machine Intelligence, IEEE Transactions on}\@, \bibyear{2009}\@,
+  \bibvolume{31}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{210\thinspace{}\textnormal{--}\thinspace{}227}\@.
+
+\bibitem{wang2012semicoupled}
+\bibauthor{WANG S\@, ZHANG L\@, LIANG Y, et~al}\@. \bibtitle{Semi-coupled
+  dictionary learning with applications to image super-resolution and
+  photo-sketch synthesis}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings
+  of IEEE Conference on Computer Vision and Pattern Recognitionl}\@.
+  \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{2216\thinspace{}\textnormal{--}\thinspace{}2223}\@.
+
+\bibitem{zhuang2013supervised}
+\bibauthor{ZHUANG Y\@, WANG Y~F\@, WU F, et~al}\@. \bibtitle{Supervised coupled
+  dictionary learning with group structures for multi-modal
+  retrieval}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the
+  Twenty-seventh AAAI Conference on Artificial Intelligence}\@.
+  \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{1070\thinspace{}\textnormal{--}\thinspace{}1076}\@.
+
+\bibitem{shekhar2013generalized}
+\bibauthor{SHEKHAR S\@, PATEL V~M\@, NGUYEN H~V, et~al}\@.
+  \bibtitle{Generalized domain-adaptive dictionaries}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of IEEE Conference on Computer Vision
+  and Pattern Recognition}\@. \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{361\thinspace{}\textnormal{--}\thinspace{}368}\@.
+
+\bibitem{hardoon2004canonical}
+\bibauthor{HARDOON D\@, SZEDMAK S\@, SHAWE-TAYLOR J}\@. \bibtitle{Canonical
+  correlation analysis: An overview with application to learning
+  methods}\bibmark{[J]}\@. \bibjournal{Neural Computation}\@, \bibyear{2004}\@,
+  \bibvolume{16}\bibnumber{(12)}\thinspace{}\textnormal{:
+  }\bibpages{2639\thinspace{}\textnormal{--}\thinspace{}2664}\@.
+
+\bibitem{rasiwasia2010new}
+\bibauthor{RASIWASIA N\@, COSTA~PEREIRA J\@, COVIELLO E, et~al}\@. \bibtitle{A
+  new approach to cross-modal multimedia retrieval}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the ACM International Conference
+  on Multimedia}\@. \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{251\thinspace{}\textnormal{--}\thinspace{}260}\@.
+
+\bibitem{sharma2012generalized}
+\bibauthor{SHARMA A\@, KUMAR A\@, DAUME H, et~al}\@. \bibtitle{Generalized
+  multiview analysis: A discriminative latent space}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{IEEE Conference on Computer Vision and Pattern
+  Recognition}\@. \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{2160\thinspace{}\textnormal{--}\thinspace{}2167}\@.
+
+\bibitem{sharma2011bypassing}
+\bibauthor{SHARMA A\@, JACOBS D~W}\@. \bibtitle{Bypassing synthesis: PLS for
+  face recognition with pose, low-resolution and sketch}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{IEEE Conference on Computer Vision and Pattern
+  Recognition}\@. \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{593\thinspace{}\textnormal{--}\thinspace{}600}\@.
+
+\bibitem{chen2012continuum}
+\bibauthor{CHEN Y\@, WANG L\@, WANG W, et~al}\@. \bibtitle{Continuum regression
+  for cross-modal multimedia retrieval}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Image Processing (ICIP), 2012 19th IEEE
+  International Conference on}\@. \bibyear{2012}\thinspace{}\textnormal{:
+  }\bibpages{1949\thinspace{}\textnormal{--}\thinspace{}1952}\@.
+
+\bibitem{blei2003lda}
+\bibauthor{BLEI D~M\@, NG A~Y\@, JORDAN M~I}\@. \bibtitle{Latent dirichlet
+  allocation}\bibmark{[J]}\@. \bibjournal{The Journal of Machine Learning
+  Research}\@, \bibyear{2003}\@, \bibvolume{3}\thinspace{}\textnormal{:
+  }\bibpages{993\thinspace{}\textnormal{--}\thinspace{}1022}\@.
+
+\bibitem{blei2003modeling}
+\bibauthor{BLEI D~M\@, JORDAN M~I}\@. \bibtitle{Modeling annotated
+  data}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the 26th Annual
+  International ACM SIGIR Conference on Research and Development in Information
+  Retrieval}\@. \bibyear{2003}\thinspace{}\textnormal{:
+  }\bibpages{127\thinspace{}\textnormal{--}\thinspace{}134}\@.
+
+\bibitem{putthividhy2010topic}
+\bibauthor{PUTTHIVIDHY D\@, ATTIAS H~T\@, NAGARAJAN S~S}\@. \bibtitle{Topic
+  regression multi-modal latent dirichlet allocation for image
+  annotation}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of IEEE
+  Conference on Computer Vision and Pattern Recognitionl}\@.
+  \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{3408\thinspace{}\textnormal{--}\thinspace{}3415}\@.
+
+\bibitem{virtanen2012factorized}
+\bibauthor{VIRTANEN S\@, JIA Y\@, KLAMI A, et~al}\@. \bibtitle{Factorized
+  multi-modal topic model}\bibmark{[J]}\@. \bibjournal{arXiv preprint arXiv:
+  1210.4920}\@, \bibyear{2012}\@.
+
+\bibitem{monaci2007learning}
+\bibauthor{MONACI G\@, JOST P\@, VANDERGHEYNST P, et~al}\@. \bibtitle{Learning
+  multimodal dictionaries}\bibmark{[J]}\@. \bibjournal{Image Processing, IEEE
+  Transactions on}\@, \bibyear{2007}\@,
+  \bibvolume{16}\bibnumber{(9)}\thinspace{}\textnormal{:
+  }\bibpages{2272\thinspace{}\textnormal{--}\thinspace{}2283}\@.
+
+\bibitem{jia2010factorized}
+\bibauthor{JIA Y\@, SALZMANN M\@, DARRELL T}\@. \bibtitle{Factorized latent
+  spaces with structured sparsity}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Advances in Neural Information Processing
+  Systems}\@. \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{982\thinspace{}\textnormal{--}\thinspace{}990}\@.
+
+\bibitem{tibshirani1996regression}
+\bibauthor{TIBSHIRANI R}\@. \bibtitle{Regression shrinkage and selection via
+  the lasso}\bibmark{[J]}\@. \bibjournal{Journal of the Royal Statistical
+  Society. Series B (Methodological)}\@,
+  \bibyear{1996}\thinspace{}\textnormal{:
+  }\bibpages{267\thinspace{}\textnormal{--}\thinspace{}288}\@.
+
+\bibitem{mairal2008discriminative}
+\bibauthor{MAIRAL J\@, BACH F\@, PONCE J, et~al}\@. \bibtitle{Discriminative
+  learned dictionaries for local image analysis}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Computer Vision and Pattern Recognition, 2008.
+  CVPR 2008. IEEE Conference on}\@. \bibyear{2008}\thinspace{}\textnormal{:
+  }\bibpages{1\thinspace{}\textnormal{--}\thinspace{}8}\@.
+
+\bibitem{mairal2009supervised}
+\bibauthor{MAIRAL J\@, PONCE J\@, SAPIRO G, et~al}\@. \bibtitle{Supervised
+  dictionary learning}\bibmark{[C]} //\thinspace{}\bibbooktitle{Advances in
+  neural information processing systems}\@.
+  \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{1033\thinspace{}\textnormal{--}\thinspace{}1040}\@.
+
+\bibitem{mairal2009online}
+\bibauthor{MAIRAL J\@, BACH F\@, PONCE J, et~al}\@. \bibtitle{Online dictionary
+  learning for sparse coding}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of the 26th International Conference
+  on Machine Learning}\@. \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{689\thinspace{}\textnormal{--}\thinspace{}696}\@.
+
+\bibitem{lee2006efficient}
+\bibauthor{LEE H\@, BATTLE A\@, RAINA R, et~al}\@. \bibtitle{Efficient sparse
+  coding algorithms}\bibmark{[C]} //\thinspace{}\bibbooktitle{Advances in
+  neural information processing systems}\@.
+  \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{801\thinspace{}\textnormal{--}\thinspace{}808}\@.
+
+\bibitem{chua2009nus}
+\bibauthor{CHUA T-S\@, TANG J\@, HONG R, et~al}\@. \bibtitle{NUS-WIDE: a
+  real-world web image database from National University of
+  Singapore}\bibmark{[C]} //\thinspace{}\bibbooktitle{Proceedings of the ACM
+  International Conference on Image and Video Retrieval}\@.
+  \bibyear{2009}\thinspace{}\textnormal{:
+  }\bibpages{48:1\thinspace{}\textnormal{--}\thinspace{}48:9}\@.
+
+\bibitem{tenenbaum2000separating}
+\bibauthor{TENENBAUM J~B\@, FREEMAN W~T}\@. \bibtitle{Separating style and
+  content with bilinear models}\bibmark{[J]}\@. \bibjournal{Neural
+  Computation}\@, \bibyear{2000}\@,
+  \bibvolume{12}\bibnumber{(6)}\thinspace{}\textnormal{:
+  }\bibpages{1247\thinspace{}\textnormal{--}\thinspace{}1283}\@.
+
+\bibitem{yang2011fisher}
+\bibauthor{YANG M\@, ZHANG D\@, FENG X}\@. \bibtitle{Fisher discrimination
+  dictionary learning for sparse representation}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of IEEE International Conference on
+  Computer Vision}\@. \bibyear{2011}\thinspace{}\textnormal{:
+  }\bibpages{543\thinspace{}\textnormal{--}\thinspace{}550}\@.
+
+\bibitem{yang2010metaface}
+\bibauthor{YANG M\@, ZHANG L\@, YANG J, et~al}\@. \bibtitle{Metaface learning
+  for sparse representation based face recognition}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of IEEE International Conference on
+  Image Processing}\@. \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{1601\thinspace{}\textnormal{--}\thinspace{}1604}\@.
+
+\bibitem{huiskes08}
+\bibauthor{MARK J.~HUISKES B~T\@, LEW M~S}\@. \bibtitle{New Trends and Ideas in
+  Visual Concept Detection: The MIR Flickr Retrieval Evaluation
+  Initiative}\bibmark{[C]} //\thinspace{}\bibbooktitle{MIR '10: Proceedings of
+  the 2010 ACM International Conference on Multimedia Information Retrieval}\@.
+  \bibyear{2010}\thinspace{}\textnormal{:
+  }\bibpages{527\thinspace{}\textnormal{--}\thinspace{}536}\@.
+
+\bibitem{lowe2004distinctive}
+\bibauthor{LOWE D~G}\@. \bibtitle{Distinctive image features from
+  scale-invariant keypoints}\bibmark{[J]}\@. \bibjournal{International Journal
+  of Computer Vision}\@, \bibyear{2004}\@,
+  \bibvolume{60}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{91\thinspace{}\textnormal{--}\thinspace{}110}\@.
+
+\bibitem{fei2007learning}
+\bibauthor{FEI-FEI L\@, FERGUS R\@, PERONA P}\@. \bibtitle{Learning generative
+  visual models from few training examples: An incremental bayesian approach
+  tested on 101 object categories}\bibmark{[J]}\@. \bibjournal{Computer Vision
+  and Image Understanding}\@, \bibyear{2007}\@,
+  \bibvolume{106}\bibnumber{(1)}\thinspace{}\textnormal{:
+  }\bibpages{59\thinspace{}\textnormal{--}\thinspace{}70}\@.
+
+\bibitem{wu2014sparse}
+\bibauthor{WU F\@, YU Z\@, YANG Y, et~al}\@. \bibtitle{Sparse multi-modal
+  hashing}\bibmark{[J]}\@. \bibjournal{Multimedia, IEEE Transactions on}\@,
+  \bibyear{2014}\@, \bibvolume{16}\bibnumber{(2)}\thinspace{}\textnormal{:
+  }\bibpages{427\thinspace{}\textnormal{--}\thinspace{}439}\@.
+
+\bibitem{wang2013crossmodalmatching}
+\bibauthor{WANG K\@, HE R\@, WANG W, et~al}\@. \bibtitle{Learning coupled
+  feature spaces for cross-modal matching}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{IEEE Conference on Computer Vision and Pattern
+  Recognition}\@. \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{2088\thinspace{}\textnormal{--}\thinspace{}2095}\@.
+
+\bibitem{rasiwasia2007bridging}
+\bibauthor{RASIWASIA N\@, MORENO P~J\@, VASCONCELOS N}\@. \bibtitle{Bridging
+  the gap: Query by semantic example}\bibmark{[J]}\@. \bibjournal{Multimedia,
+  IEEE Transactions on}\@, \bibyear{2007}\@,
+  \bibvolume{9}\bibnumber{(5)}\thinspace{}\textnormal{:
+  }\bibpages{923\thinspace{}\textnormal{--}\thinspace{}938}\@.
+
+\bibitem{xie2013semanticmodel}
+\bibauthor{XIE L\@, PAN P\@, LU Y}\@. \bibtitle{A semantic model for
+  cross-modal and multi-modal retrieval}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Proceedings of IEEE Conference on Multimedia
+  Retrieval}\@. \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{175\thinspace{}\textnormal{--}\thinspace{}182}\@.
+
+\bibitem{wang2013learning}
+\bibauthor{WANG K\@, HE R\@, WANG W, et~al}\@. \bibtitle{Learning coupled
+  feature spaces for cross-modal matching}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Computer Vision (ICCV), 2013 IEEE International
+  Conference on}\@. \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{2088\thinspace{}\textnormal{--}\thinspace{}2095}\@.
+
+\bibitem{deng2013visual}
+\bibauthor{DENG C\@, JI R\@, LIU W, et~al}\@. \bibtitle{Visual reranking
+  through weakly supervised multi-graph learning}\bibmark{[C]}
+  //\thinspace{}\bibbooktitle{Computer Vision (ICCV), 2013 IEEE International
+  Conference on}\@. \bibyear{2013}\thinspace{}\textnormal{:
+  }\bibpages{2600\thinspace{}\textnormal{--}\thinspace{}2607}\@.
+
+\bibitem{bajramovic2006comparison}
+\bibauthor{BAJRAMOVIC F\@, MATTERN F\@, BUTKO N, et~al}\@. \bibtitle{A
+  comparison of nearest neighbor search algorithms for generic object
+  recognition}\bibmark{[C]} //\thinspace{}\bibbooktitle{Advanced Concepts for
+  Intelligent Vision Systems}\@. \bibyear{2006}\thinspace{}\textnormal{:
+  }\bibpages{1186\thinspace{}\textnormal{--}\thinspace{}1197}\@.
+
+\bibitem{xiao2011efficient}
+\bibauthor{XIAO C\@, WANG W\@, LIN X, et~al}\@. \bibtitle{Efficient similarity
+  joins for near-duplicate detection}\bibmark{[J]}\@. \bibjournal{ACM
+  Transactions on Database Systems (TODS)}\@, \bibyear{2011}\@,
+  \bibvolume{36}\bibnumber{(3)}\thinspace{}\textnormal{: }\bibpages{15}\@.
+
+\end{thebibliography}

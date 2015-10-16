@@ -1,0 +1,47 @@
+\contentsline {chapter}{摘要}{I}{section*.1}
+\contentsline {chapter}{ABSTRACT}{III}{section*.3}
+\contentsline {chapter}{插图索引}{V}{section*.5}
+\contentsline {chapter}{表格索引}{VII}{section*.7}
+\contentsline {chapter}{符号对照表}{IX}{section*.9}
+\contentsline {chapter}{缩略语对照表}{XI}{section*.11}
+\contentsline {chapter}{\numberline {第一\ignorespaces 章\hspace {0.3em}}绪论}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1\ignorespaces }研究背景及意义}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2\ignorespaces }研究现状}{3}{section.1.2}
+\contentsline {chapter}{\numberline {第二\ignorespaces 章\hspace {0.3em}}字典学习方法}{7}{chapter.2}
+\contentsline {section}{\numberline {2.1\ignorespaces }字典学习}{7}{section.2.1}
+\contentsline {section}{\numberline {2.2\ignorespaces }耦合字典学习}{7}{section.2.2}
+\contentsline {section}{\numberline {2.3\ignorespaces }判别性字典学习}{7}{section.2.3}
+\contentsline {section}{\numberline {2.4\ignorespaces }其他说明}{8}{section.2.4}
+\contentsline {chapter}{\numberline {第三\ignorespaces 章\hspace {0.3em}}基于判别性特征空间学习的多模态检索方法}{9}{chapter.3}
+\contentsline {section}{\numberline {3.1\ignorespaces }引言}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2\ignorespaces }基于判别性字典的多模态检索}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3\ignorespaces }基于耦合字典学习与类标对齐的多模态检索}{11}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1\ignorespaces }Introduction}{11}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2\ignorespaces }The Proposed Model }{12}{subsection.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.2.1\ignorespaces }Dictionary Learning}{12}{subsubsection.3.3.2.1}
+\contentsline {subsubsection}{\numberline {3.3.2.2\ignorespaces }Problem Formulation}{12}{subsubsection.3.3.2.2}
+\contentsline {subsubsection}{\numberline {3.3.2.3\ignorespaces }Optimization}{13}{subsubsection.3.3.2.3}
+\contentsline {subsection}{\numberline {3.3.3\ignorespaces }Application to Cross-Modal Retrieval}{14}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4\ignorespaces }Experiments}{15}{subsection.3.3.4}
+\contentsline {subsubsection}{\numberline {3.3.4.1\ignorespaces }Experiment Setting}{15}{subsubsection.3.3.4.1}
+\contentsline {subsubsection}{\numberline {3.3.4.2\ignorespaces }Performance Comparisons}{16}{subsubsection.3.3.4.2}
+\contentsline {section}{\numberline {3.4\ignorespaces }Conclusions}{17}{section.3.4}
+\contentsline {chapter}{\numberline {第四\ignorespaces 章\hspace {0.3em}}基于判别性字典学习与类标对齐的多模态检索方法}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1\ignorespaces }Problem Formulation}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2\ignorespaces }Optimization Algorithm}{20}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1\ignorespaces }Cross-Modal Retrieval}{21}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2\ignorespaces }Computational Complexity}{22}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3\ignorespaces }Experiments}{23}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1\ignorespaces }Datasets}{23}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2\ignorespaces }Experimental Settings}{24}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3\ignorespaces }Compared Methods}{25}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4\ignorespaces }Parameter Tuning}{25}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.5\ignorespaces }Performance Comparison}{26}{subsection.4.3.5}
+\contentsline {chapter}{\numberline {第五\ignorespaces 章\hspace {0.3em}}总结与展望}{31}{chapter.5}
+\contentsline {section}{\numberline {5.1\ignorespaces }总结}{31}{section.5.1}
+\contentsline {section}{\numberline {5.2\ignorespaces }展望}{31}{section.5.2}
+\contentsline {section}{\numberline {5.3\ignorespaces }学位论文的打印、装订要求}{31}{section.5.3}
+\contentsline {section}{\numberline {5.4\ignorespaces }其他说明}{31}{section.5.4}
+\contentsline {chapter}{参考文献}{33}{section*.14}
+\contentsline {chapter}{致谢}{37}{section*.16}
+\contentsline {chapter}{作者简介}{38}{section*.18}

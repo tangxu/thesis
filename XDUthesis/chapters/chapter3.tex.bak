@@ -1,0 +1,277 @@
+
+\chapter{基于判别性特征空间学习的多模态检索方法}
+
+我校研究生学位论文包括以下几个部分：
+
+\section{引言}
+
+（1）题目：题目是以最恰当、最简明的词语反映论文中最重要的特定内容的逻辑组合，力求简短切题。中文题目（包括副标题和标点符号）一般不超过~20~个字，英文题目一般不超过~10~个实词。
+
+题目位于确定位置的文本框中，文本框格式为水平位置：相对于右侧页边距绝对位置~0.5~厘米；垂直位置：相对于下侧页边距绝对位置~15~厘米；文字环绕方式为浮于文字上方；文本框大小：高度为绝对值~3.2~厘米，宽度为绝对值~15~厘米。文字格式为中文宋体、英文~Times New Roman~，二号加粗，居中对齐，左右不缩进，段前段后不留空，行距为固定值~30~ 磅。
+
+（2）责任者姓名：包括论文作者姓名、指导教师姓名及职称（博士学位论文、学术型和同等学力硕士学位论文）以及学校、企业导师姓名及职称（专业学位硕士学位论文）。没有企业导师的专业学位类别请将“企业导师姓名及职称”栏目删除。
+
+（3）申请学位类别：按照学科门类和学位层次填写，如工学博士、工学硕士、工程硕士、工商管理硕士等。
+
+作者姓名、指导教师姓名职称、申请学位类别信息位于确定位置的文本框中，文本框格式为水平位置：相对于右侧页边距绝对位置~3.5~厘米；垂直位置：相对于下侧页边距绝对位置~20~厘米；文字环绕方式为浮于文字上方；文本框大小：高度为绝对值~3.5~厘米，宽度为绝对值~9~厘米。标题字体为黑体四号加粗，具体内容的文字格式为中文宋体、英文~Times New Roman~，四号加粗，左对齐，左右不缩进，段前段后不留空，行距为固定值~30~ 磅。
+
+\section{基于判别性字典的多模态检索}
+
+题名页包括中文题名页和英文题名页，主要由学校代码、分类号、学号、密级、论文题目、作者姓名、一级学科、二级学科（博士学位论文、学术型和同等学力硕士学位论文）、领域（专业学位硕士学位论文）、学位类别、指导教师姓名、职称（博士学位论文、学术型和同等学力硕士学位论文）、学校、企业导师姓名、职称（专业学位硕士学位论文）、提交日期等部分组成。没有企业导师的专业学位类别请将“企业导师姓名及职称”栏目删除。
+
+（1）学校代码：指本单位编号，我校代码是“~10701~”。
+
+（2）分类号：指在《中国图书资料分类法》中的分类号（填写前四位即可）。
+
+（3）学号：按照入学时研究生院编制的统一编号填写。
+
+（4）密级：密级由导师确定，分为公开和秘密两种。
+
+学校代码和分类号位于确定位置的文本框中，文本框格式为水平位置：相对于右侧页边距绝对位置~0.2~厘米；垂直位置：相对于下侧页边距绝对位置~0.3~厘米；文字环绕方式为浮于文字上方；文本框大小：高度为绝对值~1.1~厘米，宽度为绝对值~4.5~厘米。学号和密级位于确定位置的文本框中，文本框格式为水平位置：相对于右侧页边距绝对位置~10.9~厘米；垂直位置：相对于下侧页边距绝对位置~0.3~厘米；文字环绕方式为浮于文字上方；文本框大小：高度为绝对值~1.1~厘米，宽度为绝对值~4.5~厘米。中文题名页中的学校代码、分类号、学号和密级的字体为宋体，字号为五号加粗，行距为多倍行距~1.2~，段落间距为段前~0~磅，段后~0~磅；
+
+学位论文题目位于确定位置的文本框中，文本框格式为水平位置：相对于右侧页边距绝对位置~0~厘米；垂直位置：相对于下侧页边距绝对位置~11~厘米；文字环绕方式为浮于文字上方；文本框大小：高度为绝对值~3.2~厘米，宽度为绝对值~15.5~ 厘米。字体为宋体，字号为二号加粗，行距为固定值~30~磅，段落间距为段前~0~磅，段后~0~磅；
+
+作者姓名、指导教师姓名职称、一级学科、二级学科、领域、学位类别、提交日期位于确定位置的文本框中，文本框格式为水平位置：相对于右侧页边距绝对位置~4.5~厘米；垂直位置：相对于下侧页边距绝对位置~16~厘米；文字环绕方式为浮于文字上方；文本框大小：高度为绝对值~8.6~厘米，宽度为绝对值~8.5~厘米。标题和具体内容的字体为宋体，标题字号为四号加粗，具体内容的字号为四号不加粗，行距为固定值~32~磅，段落间距为段前~0~磅，段后~0~磅。
+
+英文题名页中的学科填写二级学科（专业学位填写领域或类别），学位论文题目字体为~Times New Roman~，字号二号加粗，行距为固定值~30~ 磅，段落间距为段前~0~磅，段后~0~磅，其他内容的字体为~Times New Roman~，字号三号，行距为固定值~30~磅，段落间距为段前~0~磅，段后~0~磅。学位论文题目位于确定位置的文本框中，文本框格式为水平位置：相对于右侧页边距绝对位置~0~厘米；垂直位置：相对于下侧页边距绝对位置~0~厘米；文字环绕方式为浮于文字上方；文本框大小：高度为绝对值~3.5~厘米，宽度为绝对值~15.5~厘米。学科信息文本框格式为水平位置：相对于右侧页边距绝对位置~0~厘米；垂直位置：相对于下侧页边距绝对位置~6~厘米；文字环绕方式为浮于文字上方；文本框大小：高度为绝对值~5.5~厘米，宽度为绝对值~15.5~厘米。作者信息文本框格式为水平位置：相对于右侧页边距绝对位置~0~厘米；垂直位置：相对于下侧页边距绝对位置~18.7~厘米；文字环绕方式为浮于文字上方；文本框大小：高度为绝对值~4.5~厘米，宽度为绝对值~15.5~厘米。
+
+\section{基于耦合字典学习与类标对齐的多模态检索}
+
+\subsection{Introduction}
+Cross-modal retrieval has attracted extensively attention due to the explosive growth of multimedia data, such as image, video and text. Given a text query, the task of cross-modal retrieval is to search the most relevant images from an image dataset, and vice versa. Different from the unimodal case, the data from different modalities reside in different feature space, and exist a natural semantic gap between them. Hence, the challenging problem of cross-modal retrieval is that how to sufficiently represent the heterogeneous data and effectively narrow down the semantic gap.
+
+Recently, several cross-modal retrieval approaches have been proposed from different perspectives. As a classic technique, Canonical Correlation Analysis (CCA) \cite{hardoon2004canonical} is widely used in cross-modal retrieval task, which aims to obtain the maximally correlated subspace between two different modalities. Rasiwasia \textit{et al.} \cite{rasiwasia2010new} proposed to map the text and image from their original spaces to a CCA space. The work of \cite{sharma2012generalized} used a bilinear model (BLM) to learn a common space for cross-modal retrieval. Sharma \textit{et al.} \cite{sharma2011bypassing}  and Chen \textit{et al.} \cite{chen2012continuum} utilized Partial Least Squares (PLS) for cross-modal retrieval by linearly mapping data in different modalities into the common space. Besides CCA, BLM and PLS, Sharma \textit{et al.} \cite{sharma2012generalized} proposed Generalised Multiview Anlysis to extend Linear Discriminant Analysis (LDA) \cite{blei2003lda} and Marginal Fisher Analysis (MFA), named Generalized Multiview LDA (GMLDA) and Generalized Multiview MFA (GMMFA) for cross-modal retrieval. It is worth noting that, the foregoing methods always assume that both modalities can be projected into a common feature space where the maximized correlation is explored to narrow down the semantic gap.
+
+On the other hand, to sufficiently represent the heterogeneous data resided in different feature spaces, dictionary learning has absorbed ever-increasing attention in recent years. Dictionary learning considers that a data sample can be reconstructed with a linear combination of a few atoms in a learned dictionary. Due to the intrinsic power of representing the heterogeneous features by generating different dictionaries for multi-modal data, dictionary learning technique has been adopted to deal with cross-style problems such as photo-sketch synthesis \cite{huang2013coupled} and super-resolution \cite{wang2012semicoupled}. Huang \textit{et al.} \cite{huang2013coupled} proposed a coupled dictionary learning (CDL) for cross-domain image recognition, where the different sparse coefficients are mapped into a common feature space. Recently Wu \textit{et al.} \cite{zhuang2013supervised} proposed coupled dictionary learning with group structure information for multi-modal retrieval (SLiM$^2$). Nevertheless, these methods also have very strict assumptions, which make them unsuitable for real multi-modal data and incapable to capture the inherent semantic relationship.
+
+To cope with the aforementioned problems, this paper presents a novel cross-modal retrieval framework based on coupled dictionary learning with common label alignment. Specifically, we first separately obtain sparse coefficients to represent the heterogeneous features from different modalities by imposing dictionary learning into our model. Then, the data samples from different modalities are projected into a common space where the inherent relation
+between modalities can be well discovered. Moreover, label information is leveraged to align the cross-modal data sample pairs in the common space so as to encourage the inherent correlation across the different modalities. Our model minimizes representation error and label space projection error simultaneously. To solve the framework efficiently, an iterative optimization strategy is exploited. Experimental results on two public datasets show that the proposed model outperforms several state-of-the-art methods.
+
+
+\subsection{The Proposed Model }
+\label{sec:method}
+In this section, we begin with a brief introduction of dictionary learning. Then we formulate the objective function and its corresponding optimization algorithm.
+
+
+\subsubsection{Dictionary Learning}
+\label{subsec:DL}
+Dictionary learning assumes that a data sample could be reconstructed with a linear combination of a few atoms in a dictionary.  Let $\mathbf{X}=[\mathbf{x}_1,\mathbf{x}_2,\ldots,\mathbf{x}_{N}] \in \mathbb{R}^{p \times N}$ be the data matrix, where $N$ is the number of data and $p$ is the feature dimension of the data. The sparse dictionary can be learned by minimizing the following formula:
+\begin{equation}\label{equ:dic_learn}
+\begin{split}
+&\min_{\mathbf{D,A}}\|\mathbf{X}-\mathbf{DA}\|_F^2+\lambda\|\mathbf{A}\|_1\\
+&s.t. \qquad \|\mathbf{d}_i\|\leq1, \quad \forall i,\\
+\end{split}
+\end{equation}
+where $\mathbf{D}$ is the learned dictionary and $\mathbf{d}_i$ is one of the dictionary atoms of $\mathbf{D}$. $\mathbf{A}$ is the sparse coefficient of $\mathbf{X}$, $\|\cdot\|_{1}$ denotes $l_1$-norm to enforce the sparsity, and the parameter $\lambda$ controls the sparsity. The formulation minimizes the reconstruction error of the given set of data \emph{w.r.t.} a sparsity constraint.
+
+
+
+\subsubsection{Problem Formulation}
+\label{subsec:formulation}
+Assume that there are $M$-modal datasets $\{\mathbf{X}_1, \mathbf{X}_2, \dots, \mathbf{X}_M\}$. Suppose that $\mathbf{X}_m\!=\![\mathbf{x}_1^m,\mathbf{x}_2^m,\ldots,\mathbf{x}_{N}^m]\in\!\mathbb{R}^{p_m\times{N}}$ from the $m$-th modality, where $N$ denotes the number of data samples in $\mathbf{X}_m$, and $p_m$ denotes the dimensionality of the $m$-th modality. Each sample pair \{$\mathbf{x}_i^1,\ldots, \mathbf{x}_i^M$\} exclusively belongs to one of $C$ classes and describes the relevant underlying content.
+
+Let $\mathbf{D}_m\in \mathbb{R}^{{p_m}\times{K}}$ be the dictionary from $\mathbf{X}_m$ and let $\mathbf{A}_m\in \mathbb{R}^{K \times N}$ be its corresponding sparse coefficients, where $K$ is the size of the dictionary. We also suppose that a common label matrix $\mathbf{Q}=[\mathbf{q}_1,\mathbf{q}_2,\ldots,\mathbf{q}_N]\in\!\{0,1\}^{C\times{N}}$, where $\mathbf{q}_i$ is the label vector of the $i$-th sample pair. For the $i$-th sample pair, if it belongs to the $j$-th class, $q_{ij}=1$, otherwise $q_{ij}=0$. As one sample only belongs to one class, $\sum_{j=1}^C{q_{ij}}=1$ for the $i$-th sample pair.
+
+Our model aims to separately obtain the sparse coefficients from different modalities by dictionary learning, and project them to a common label space where the data share the similar semantic concepts by label alignment. Therefore, the object function is formulated as a minimization problem as follows:
+\begin{equation}\label{equ:object}
+\begin{split}
+&\min_{\mathbf{D}_m,\mathbf{A}_m,\mathbf{W}_m} \sum_{m=1}^{M} \|\mathbf{X}_m-\mathbf{D}_m \mathbf{A}_m\|_F^2 +  \sum_{m=1}^M  \|\mathbf{Q}-\mathbf{W}_m \mathbf{A}_m\|_F^2 \\
+&\qquad \qquad +  \sum_{m=1}^M  \lambda \|\mathbf{A}_m\|_1 +  \sum_{m=1}^M \gamma \|\mathbf{W}_m\|_F^2
+\end{split}
+\end{equation}
+where the first term minimizes the reconstruction error, and the second term aligns the common labels of the relevant data sample by minimizing the projection error. The regularization parameters $\lambda$ and $\gamma$ can balance the weight of the two terms in the object function. In Eq. \eqref{equ:object}, $\mathbf{W}_m\in\mathbb{R}^{C \times K}$ is the projection matrix, by which $\mathbf{A}_m$ is projected into the common label space. The term ${\left\| \mathbf{W}_{m} \right\|}_{F}^2$ can avoid over-fitting. In our model, different modalities data can be represented and correlated simultaneously.
+
+
+\subsubsection{Optimization}
+\label{subsec:opt}
+
+Since the objective function is not jointly convex \textit{w.r.t.} $\mathbf{D}_m$, $\mathbf{A}_m$ and $\mathbf{W}_m$, it is difficult to optimize them jointly. Therefore we use a iterative algorithm to update each variable when fixing the other two for each modal, respectively.
+
+With the initialization of dictionaries $\mathbf{D}_m$ and projection matrices $\mathbf{W}_m$, we can update sparse coefficients $\mathbf{A}_m$ by considering $\mathbf{D}_m$ and $\mathbf{W}_m$ as constants, which can be formulated as follows:
+\begin{equation}\label{equ:update-a0}
+\begin{split}
+\min_{\mathbf{A}_m}  {\|\mathbf{X}_m-\mathbf{D}_m \mathbf{A}_m\|_F^2 + \|\mathbf{Q}-\mathbf{W}_m \mathbf{A}_m\|_F^2 +\lambda \|\mathbf{A}_m\|_1 }
+\end{split}
+\end{equation}
+To conduct the optimization above, it can be rewritten as the following problem:
+\begin{equation}\label{equ:update-a}
+\begin{split}
+\min_{\mathbf{A}_m}\left\| \mathbf{\left[\begin{array}{c} \mathbf{X}_m \\ \mathbf{Q} \\ \end{array} \right]} - {\left[\begin{array}{c} \mathbf{D}_m \\  \mathbf{W}_m \\ \end{array} \right]
+} \mathbf{A}_m\right\|_F^2 + \lambda \|\mathbf{A}_m\|_1
+\end{split}
+\end{equation}
+which is a $l_1$-norm lasso problem and can be solved by SPAMS Toolbox \cite{mairal2009online}.
+
+Then with $\mathbf{A}_m$, $\mathbf{W}_m$ fixed, we can update $\mathbf{D}_m$ as follow:
+\begin{equation}\label{equ:update-d}
+\begin{split}
+\min_{\mathbf{D}_m} \|\mathbf{X}_m - \mathbf{D}_m \mathbf{A}_m\|_F^2
+\quad \mbox{s.t.} \quad \|\mathbf{d}_{m,i}\| \leq 1, \forall i
+ \end{split}
+\end{equation}
+which is a quadratically constrained quadratic program (QCQP) problem \emph{w.r.t.} $\mathbf{D}_{m}$ and the solutions can be obtained by Lagrange dual techniques \cite{lee2006efficient}.
+
+When $\mathbf{A}_m$ and $\mathbf{D}_m$ are fixed, we can calculate projection matrices $\mathbf{W}_m$ as follows:
+\begin{equation}\label{equ:update-w0}
+\min_{\mathbf{W}_m} { \|\mathbf{Q}-\mathbf{W}_m \mathbf{A}_m\|_F^2 + \gamma \|\mathbf{W}_m\|_F^2}
+\end{equation}
+
+
+Finally, we update the projection matrices $\mathbf{U}_m$. When $\mathbf{D}_m$ and $\mathbf{A}_m$ are fixed, Eq. \eqref{equ:object} is a ridge regression problem and the analytical solutions can be obtained as below:
+\begin{equation}\label{equ:update-w}
+\mathbf{W}_m = \mathbf{Q} \mathbf{A}_m^T(\mathbf{A}_m \mathbf{A}_m^T + \gamma \mathbf{I})^{-1}
+\end{equation}
+
+The algorithm procedures are summarized in Algorithm \ref{alg:optimization}.
+
+
+\renewcommand{\algorithmicrequire}{\textbf{Input:}} % Use Input in the format of Algorithm
+\renewcommand{\algorithmicensure}{\textbf{Output:}} % Use Output in the format of Algorithm
+\begin{algorithm}[!t]
+\caption{Iterative Algorithm for Our Proposed Model}
+\label{alg:optimization}
+\begin{algorithmic}[1]
+\Require
+Data matrices $\mathbf{X}_m$ from the $m$-th modality; the label matrix $\mathbf{Q}$.
+\State Initialize the dictionary $\mathbf{D}_m$ and the sparse coefficients $\mathbf{A}_m$ for $m$-th modality and initialize the projection matrix $\mathbf{W}_m$ by Eq. \eqref{equ:update-w}.
+\While {not converge}
+\State Update $\mathbf{A}_{m}$ of the $m$-th modality by Eq. \eqref{equ:update-a} with $\mathbf{D}_{m}$ and $\mathbf{W}_{m}$ obtained from the previous iteration.
+\State Update $\mathbf{D}_{m}$ of the $m$-th modality by Eq. \eqref{equ:update-d} with $\mathbf{A}_{m}$ and $\mathbf{W}_{m}$ fixed.
+\State Update $\mathbf{W}_{m}$ of the $m$-th modality by Eq. \eqref{equ:update-w} with $\mathbf{D}_{m}$ and $\mathbf{A}_{m}$ fixed.
+\EndWhile
+\Ensure
+Dictionaries $\mathbf{D}_m$, and project matrices $\mathbf{W}_m$ of data from the $m$-th modality.
+\end{algorithmic}
+\end{algorithm}
+
+
+
+\subsection{Application to Cross-Modal Retrieval}
+\label{subsec:retrieval}
+After the optimization algorithm is completed, $\mathbf{D}_m$, $\mathbf{A}_m$ and $\mathbf{U}_m$ can be derived and we can use them to conduct cross-modal retrieval application.
+
+Given a query $q_m$ from $m$-th modality, the sparse coefficients $a_m$ can be obtained by sparse coding as follows:
+\begin{equation}\label{equ:obtain_a_m}
+\min_{a_m}{\|q_m-\mathbf{D}_i a_m\|_F^2+\lambda\|a_m\|_1}
+\end{equation}
+Then the sparse coefficients will be projected into the common label space by the projection matrix $\mathbf{W}_m$:
+\begin{equation}\label{equ:obtain_p_m}
+p_m = \mathbf{W}_m a_m
+\end{equation}
+where $p_m$ is the representation of $q_m$ in the common label space. By using the projection matrices we can projected all data from different modalities into the the common label space, in which the relevance of data from different modalities can be measured easily and the nearest neighbors of the query are returned as the retrieval results.
+
+
+\subsection{Experiments}
+\label{sec:experiments}
+
+In this section, we will evaluate the performance of the proposed cross-modal retrieval. We first elaborate the experiment setting and the evaluation metrics adopted in this paper, and then compare our approach with several state-of-the-art methods.
+
+\subsubsection{Experiment Setting}
+\label{subsec:setup}
+We evaluate the proposed method on two public image-text datasets, \emph{i.e.}, Wiki Text-Image dataset \cite{rasiwasia2010new} and the NUS-WIDE dataset \cite{chua2009nus}. And our experiments are conducted for two retrieval tasks: (1) image query in text database, (2) text query in image database.
+
+The Wiki dataset consists of 2173/693 (training/test) image-text pairs which are generated from Wikipedia. Each pair is labeled by only one of 10 semantic classes. SIFT descriptors of images are extracted and quantized into Bag-of-Visual-Words (BoVW) by K-means clustering. For texts, we represent them with Bag-of-Words (BoW) by counting the word frequency. Considering the effect of feature dimensions, we finally obtain two datasets: one with 500 dimensions BoVW and 1,000 dimensions BoW, and the other with 1,000 dimensions BoVW and 5,000 dimensions BoW.
+
+The NUS-WIDE dataset contains 269,648 images from Flickr, with a total number of 5,018 unique tags. It contains 81 labels and some image-tags pairs have two or more labels. In our experiments, image-tags pairs with only one label are selected. We use 500 dimensions BoVW based on SIFT as image features and 1000 dimensions tags as text feature. Finally 63,641 pairs are obtained as dataset. And we randomly take 3\% each class for training set and 1\% each class from the testing set.
+
+In the paper, mean Average Precision (mAP) is utilized to evaluate the performance and the cosine distance is adopt to measure the similarity. The Average Precision (AP) is defined as $AP=\frac{1}{T}\sum^{N}_{r=1}P(r)\delta(r)$, where $T$ is the number of retrieved data belonging to the same class of the query. $P(r)$ denotes the precision of the top $r$ retrieved data, and $\delta(r)=1$ if the $r$th retrieved data has the same label as the query and $\delta(r)=0$ otherwise. In the experiments, we set $N=50$. The average AP values over all the queries in the query set is obtained as mAP.
+In our experiments, both the parameters $\lambda$ and $\gamma$ are set to 0.1,  and dictionary size $K=200$ empirically.
+
+
+
+\begin{table}[t]
+\centering
+\caption{Comparison of mAP performance of different methods on the Wiki dataset with 500-D BoVW and 1000-D BoW, for image query text task, text query image task and the average of two tasks. The best results are marked by bold font.}
+\begin{tabular}{lccc}
+%\hline\noalign{\smallskip}
+%\multicolumn{4}{c}{500-D BoVW and 1000-D BoW}\\
+\hline\noalign{\smallskip}
+\multirow{2}{*}{Methods} & \multicolumn{3}{c}{mAP} \\
+\cline{2-4}\noalign{\smallskip}
+ & Image query& Text query& Average\\
+\hline\noalign{\smallskip}
+CCA  & 0.1785	& 0.1784 &	0.1785\\
+PLS  & 0.2850	& 0.3419 &	0.3135\\
+BLM  & 0.2575	& 0.2806 &	0.2691\\
+GMLDA & 0.2770	& 0.3411 &	0.3091\\
+GMMFA & 0.2722	& 0.3241 &	0.2982\\
+SLiM$^2$ & 0.2242	& 0.2334 &	0.2288\\
+Proposed & \textbf{0.3094} & \textbf{0.3762} & \textbf{0.3428}\\
+\hline
+\end{tabular}
+\label{tab:wiki-small}
+\end{table}
+
+
+\begin{table}[t]
+\centering
+\caption{Comparison of mAP performance of different methods on the Wiki dataset with 1000-D BoVW and 5000-D BoW, for image query text task, text query image task and the average of two tasks. The best results are marked by bold font.}
+\begin{tabular}{lccc}
+%\hline\noalign{\smallskip}
+%\multicolumn{4}{c}{1000-D BoVW and 5000-D BoW}\\
+\hline\noalign{\smallskip}
+\multirow{2}{*}{Methods} & \multicolumn{3}{c}{mAP} \\
+\cline{2-4}\noalign{\smallskip}
+ & Image query& Text query& Average\\
+\hline\noalign{\smallskip}
+CCA	 & 0.2454 & 0.2405 & 0.2430 \\
+PLS & 0.2892 & 0.3258 & 0.3075 \\
+BLM & 0.2623 & 0.3247 & 0.2935 \\
+GMLDA & 0.2456 & 0.2259 & 0.2358 \\
+GMMFA & 0.2020 & 0.2449 & 0.2235 \\
+SLiM$^2$ & 0.2647 & 0.2852 & 0.2750 \\
+Proposed & \textbf{0.3410} & \textbf{0.4253} & \textbf{0.3832}\\
+\hline
+\end{tabular}
+\label{tab:wiki-large}
+\end{table}
+
+
+
+
+\begin{table}[t]
+\centering
+\caption{Comparison of mAP performance of different methods on the NUS-WIDE dataset with 500-D BoVW and 1000-D BoW for image query text task, text query image task and the average of two tasks. The best results are marked by bold font.}\label{tab:nuswide}
+\begin{tabular}{lccc}
+%\hline\noalign{\smallskip}
+%\multicolumn{4}{c}{500-D BoVW and 1000-D tags}\\
+\hline\noalign{\smallskip}
+\multirow{2}{*}{Methods} & \multicolumn{3}{c}{mAP} \\
+\cline{2-4}\noalign{\smallskip}
+ & Image query& Text query& Average\\
+\hline\noalign{\smallskip}
+CCA & 0.3329 & 0.3393 & 0.3361 \\
+PLS & \textbf{0.4297} & 0.4363 & 0.4330 \\
+BLM	& 0.4264 & 0.4249 & 0.4257 \\
+GMLDA &	0.3775 & 0.4138	& 0.3957 \\
+GMMFA &	0.3795 & 0.4067	& 0.3931 \\
+SLiM$^2$ &	0.3652 & 0.3500	& 0.3576 \\
+Proposed & 0.4217 & \textbf{0.4903} & \textbf{0.4560} \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Performance Comparisons}
+\label{subsec:performance}
+
+We evaluate the performance of our proposed method, and compare it with several related methods: CCA \cite{hardoon2004canonical}, PLS \cite{sharma2011bypassing},  BLM \cite{tenenbaum2000separating},  GMMFA \cite{sharma2012generalized},  GMLDA \cite{sharma2012generalized}, and SLiM$^2$ \cite{zhuang2013supervised} over Wiki Text-Image dataset and NUS-WIDE dataset.
+
+
+Table \ref{tab:wiki-small} and Table \ref{tab:wiki-large} show the mAP scores of different methods on the Wiki dataset. As shown in Table \ref{tab:wiki-small} and Table \ref{tab:wiki-large}, our method outperforms other approaches in both two retrieval tasks on Wiki dataset. Moreover, we obtain the highest average mAP scores of 0.3428 and 0.3832 on two dataset, respectively. The reason is that our method not only effectively represent heterogenous features by sparse coefficients and also sufficiently explore the common label information.
+
+The comparison of mAP results on NUS-WIDE dataset are shown in Table \ref{tab:nuswide}. As we have seen, our method achieves mAP score of 0.4903 on image-query-text task, which is much better than other methods. Although the PLS method outperforms slightly on text-query-image task, our method obtains the best mAP score on average.
+
+Figure \ref{fig:example} illustrates a visual case of cross-modal retrieval by our method. The top row shows the result of text-query-images task and the bottom row is the image-query-texts task. It is worth noting that our method can retrieve the semantically related results.
+
+
+\begin{figure*}[!t]
+\includegraphics[width=\linewidth]{example4.pdf}
+%\makeatletter\def\@captype{figure}\makeatother
+\caption{Top: An example of an text query and the top four images retrieved by our method.  Bottom: An example of an image query and the corresponding images of the top four texts retrieved by our method.}
+\label{fig:example}
+\end{figure*}
+
+\section{Conclusions}
+\label{sec:conclusion}
+In this paper, we propose a cross-modal retrieval method based on coupled dictionary learning
+with common label alignment. The main contributions of our method include: (1) we exploit coupled dictionary learning to project the data from different modalities into a common space where the inherent relation between modalities can be well discovered; (2) we utilize the shared label information in the common space to further encourage the correlation across the different modalities. Experiment results on two public datasets confirm that our method outperforms several state-of-the-art approaches.
